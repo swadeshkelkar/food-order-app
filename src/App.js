@@ -16,9 +16,6 @@ function App() {
     setCartIsShown(false);
   };
 
-  console.log("dfdsff");
-  console.log();
-
   return (
     <CartProvider>
       {cartIsShown && <Cart onClose={hideCartHandler} />}
